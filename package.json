@@ -1,0 +1,40 @@
+{
+  "name": "kamil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.12.0"
+  },
+  "keywords": [],
+  "author": "Kamil Dabrowski",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "compression": "^1.7.3",
+    "config": "^1.29.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-async-errors": "^2.1.0",
+    "fawn": "^2.1.5",
+    "fs": "0.0.1-security",
+    "helmet": "^3.13.0",
+    "jest": "^23.6.0",
+    "joi": "^13.1.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^5.0.2",
+    "puppeteer": "^1.10.0",
+    "superagent": "^3.8.3",
+    "ts": "^0.2.2",
+    "ts-import-plugin": "^1.5.5",
+    "typescript": "^3.1.6",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.0"
+  }
+}
