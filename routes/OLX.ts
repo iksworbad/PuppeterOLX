@@ -78,7 +78,6 @@ async function getTextData(page,selector) {
 
  };
 
- //getData('kamillo.dabrowski@wp.pl', 'testtest123');
 
 
 module.exports = getData;
